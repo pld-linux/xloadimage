@@ -11,7 +11,7 @@ Patch0: 	xloadimage-linux.patch
 Patch1: 	xloadimage-nobr.patch
 BuildRequires:	XFree86-devel
 BuildRequires:	libtiff-devel
-BuildRoot: 	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
 %define		_mandir		%{_prefix}/man
