@@ -24,6 +24,7 @@ Release:	26
 License:	MIT
 Group:		X11/Applications/Graphics
 Source0:	ftp://ftp.x.org/R5contrib/%{name}.%{version}.tar.gz
+# Source0-md5: 7331850fc04056ab8ae6b5725d1fb3d2
 Patch0:		%{name}-linux.patch
 Patch1:		%{name}-nobr.patch
 Patch2:		%{name}-unaligned.patch
