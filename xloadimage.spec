@@ -9,7 +9,7 @@ Summary(is):	Myndbirtir fyrir X gluggakerfiП
 Summary(it):	Visualizzatore di immagini per X Window
 Summary(ja):	X Window System ╔ы║╪╔╧╓н╡ХаЭ╔с╔Е║╪╔╒
 Summary(ko):	X ю╘╣╣©Л ╫ц╫╨еш ╠Б╧щ юл╧лаЖ ╨╦╠Б га╥н╠в╥╔
-Summary(no):	Bildevisningsprogram for X vindusystemet
+Summary(nb):	Bildevisningsprogram for X vindusystemet
 Summary(pl):	Przegl╠darka obrazkСw dla X Window
 Summary(pt):	Um visualizador de imagens baseado em X Window System
 Summary(ru):	Программа просмотра изображений в X Window System
