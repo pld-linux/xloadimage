@@ -20,7 +20,7 @@ Summary(uk):	Програма перегляду зображень п╕д X Window System
 Summary(zh_CN):	р╩╦Ж╩Ысз X ╢╟©зо╣мЁ╣дм╪оЯ╡И©╢фВ║ё
 Name:		xloadimage
 Version:	4.1
-Release:	22
+Release:	25
 License:	MIT
 Group:		X11/Applications/Graphics
 Source0:	ftp://ftp.x.org/R5contrib/%{name}.%{version}.tar.gz
