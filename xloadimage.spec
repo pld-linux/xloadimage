@@ -45,7 +45,7 @@ xmkmf
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_libdir}/X11/app-defaults 
+install -d $RPM_BUILD_ROOT%{_libdir}/X11/app-defaults
 
 %{__make} DESTDIR=$RPM_BUILD_ROOT \
 	SYSPATHFILE=$RPM_BUILD_ROOT%{_libdir}/X11/app-defaults/Xloadimage \
