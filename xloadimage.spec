@@ -5,8 +5,6 @@ Version:	4.1
 Release:	13
 License:	MIT
 Group:		X11/Applications/Graphics
-Group(de):	X11/Applikationen/Grafik
-Group(pl):	X11/Aplikacje/Grafika
 Source0:	ftp://ftp.x.org/R5contrib/%{name}.%{version}.tar.gz
 Patch0:		%{name}-linux.patch
 Patch1:		%{name}-nobr.patch
