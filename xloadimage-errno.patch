@@ -1,0 +1,10 @@
+--- img.c~	Thu Oct 28 17:18:15 1993
++++ img.c	Mon Apr 28 13:28:25 2003
+@@ -10,6 +10,7 @@
+  */
+ 
+ 
++#include <errno.h>
+ #include <stdio.h>
+ #include <stdlib.h>
+ #include <string.h>
