@@ -1,0 +1,24 @@
+diff -Nur xloadimage.4.1.orig/rlelib.c xloadimage.4.1/rlelib.c
+--- xloadimage.4.1.orig/rlelib.c	2004-01-09 10:47:25.000000000 +0100
++++ xloadimage.4.1/rlelib.c	2004-01-09 10:48:54.000000000 +0100
+@@ -12,7 +12,7 @@
+ 
+ #include <stdio.h>
+ #include <math.h>
+-#include <varargs.h>
++#include <stdarg.h>
+ #include <ctype.h>
+ 
+ #include "image.h"		/* need ZFILE definition */
+diff -Nur xloadimage.4.1.orig/tiff/tiffcompat.h xloadimage.4.1/tiff/tiffcompat.h
+--- xloadimage.4.1.orig/tiff/tiffcompat.h	2004-01-09 10:47:25.000000000 +0100
++++ xloadimage.4.1/tiff/tiffcompat.h	2004-01-09 10:49:29.000000000 +0100
+@@ -204,7 +204,7 @@
+ 
+ #if defined(USE_VARARGS)
+ #if USE_VARARGS
+-#include <varargs.h>
++#include <stdarg.h>
+ #define	VA_START(ap, parmN)	va_start(ap)
+ #else
+ #include <stdarg.h>
