@@ -41,7 +41,7 @@ xmkmf
 
 (cd jpeg; make libjpeg.a CFLAGS="$RPM_OPT_FLAGS")
 
-make CXXDEBUGFLAGS="$RPM_OPT_FLAGS" \
+%{__make} CXXDEBUGFLAGS="$RPM_OPT_FLAGS" \
 	CDEBUGFLAGS="$RPM_OPT_FLAGS"
 
 %install
