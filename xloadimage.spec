@@ -16,6 +16,7 @@ Summary(ru):	Программа просмотра изображений в X Window System
 Summary(sk):	PrehliadaХ obrАzkov pre systИm X Window
 Summary(sl):	Pregledovalnik slik za Okna X
 Summary(sv):	En bildvisare fЖr X11
+Summary(uk):	Програма перегляду зображень п╕д X Window System
 Summary(zh_CN):	р╩╦Ж╩Ысз X ╢╟©зо╣мЁ╣дм╪оЯ╡И©╢фВ║ё
 Name:		xloadimage
 Version:	4.1
@@ -117,6 +118,12 @@ podporuje mnoho typov obrАzkov (GIF, TIFF, JPEG, XPM, XBM, atО.).
 Xloadimage Дr ett verktyg som visar bilder i ett X-fЖnster, laddar
 bilder i rotfЖnstret, eller skriver bilder pЕ en fil.  Xloadimage
 hantera mЕnga bildtyper (GIF, TIFF, JPEG, XPM, XBM, etc.).
+
+%description -l uk
+Утил╕та xloadimage показу╓ зображення у в╕кн╕ X Window System, завантажу╓
+╖х в кореневе в╕кно, або запису╓ в файл. Xloadimage п╕дтриму╓ багато
+формат╕в граф╕чних файл╕в (GIF, TIFF, JPEG, XPM, XBM та ╕нш╕).
+
 
 %description -l zh_CN
 xloadimage й╣сцЁлпРсцсзтз X Window о╣мЁ╢╟©зжпотй╬м╪оС║╒
