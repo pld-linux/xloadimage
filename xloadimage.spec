@@ -1,14 +1,14 @@
-Summary: 	An X Window System based image viewer
+Summary:	An X Window System based image viewer
 Summary(pl):	Przegl±darka obrazków dla X Window
-Name: 		xloadimage
-Version: 	4.1
-Release: 	13
-Copyright: 	MIT
-Group: 		X11/Graphics
+Name:		xloadimage
+Version:	4.1
+Release:	13
+Copyright:	MIT
+Group:		X11/Applications/Graphics
 Group(pl):	X11/Grafika
-Source: 	ftp://ftp.x.org/R5contrib/%{name}.%{version}.tar.gz
-Patch0: 	xloadimage-linux.patch
-Patch1: 	xloadimage-nobr.patch
+Source0:	ftp://ftp.x.org/R5contrib/%{name}.%{version}.tar.gz
+Patch0:		xloadimage-linux.patch
+Patch1:		xloadimage-nobr.patch
 BuildRequires:	XFree86-devel
 BuildRequires:	libtiff-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -19,11 +19,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 The xloadimage utility displays images in an X Window System window,
 loads images into the root window, or writes images into a file.
-Xloadimage supports many images types (GIF, TIFF, JPEG, XPM, XBM, etc.).
+Xloadimage supports many images types (GIF, TIFF, JPEG, XPM, XBM,
+etc.).
 
 %description -l pl
-Xloadimage wy¶wietla obrazki w zwyk³ym i g³ównym oknie X Window lub 
-zapisuje je do pliku. Rozpoznaje wiele formatów plików graficznych, 
+Xloadimage wy¶wietla obrazki w zwyk³ym i g³ównym oknie X Window lub
+zapisuje je do pliku. Rozpoznaje wiele formatów plików graficznych,
 m.in. GIF, TIFF, XPM, XBM, etc.
 
 %prep
