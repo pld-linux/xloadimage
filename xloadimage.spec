@@ -3,12 +3,13 @@ Summary(pl):	Przegl±darka obrazków dla X Window
 Name:		xloadimage
 Version:	4.1
 Release:	13
-Copyright:	MIT
+License:	MIT
 Group:		X11/Applications/Graphics
-Group(pl):	X11/Grafika
+Group(de):	X11/Applikationen/Grafik
+Group(pl):	X11/Aplikacje/Grafika
 Source0:	ftp://ftp.x.org/R5contrib/%{name}.%{version}.tar.gz
-Patch0:		xloadimage-linux.patch
-Patch1:		xloadimage-nobr.patch
+Patch0:		%{name}-linux.patch
+Patch1:		%{name}-nobr.patch
 BuildRequires:	XFree86-devel
 BuildRequires:	libtiff-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -33,27 +34,26 @@ m.in. GIF, TIFF, XPM, XBM, etc.
 %patch1 -p1
 
 cd jpeg
-mv Makefile Makefile.orig
-ln -s makefile.ansi Makefile
+mv -f Makefile Makefile.orig
+ln -sf makefile.ansi Makefile
 
 %build
 xmkmf
 
-(cd jpeg; make libjpeg.a CFLAGS="$RPM_OPT_FLAGS")
+(cd jpeg; %{__make} libjpeg.a CFLAGS="%{rpmcflags}")
 
-%{__make} CXXDEBUGFLAGS="$RPM_OPT_FLAGS" \
-	CDEBUGFLAGS="$RPM_OPT_FLAGS"
+%{__make} CXXDEBUGFLAGS="%{rpmcflags}" \
+	CDEBUGFLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_libdir}/X11/app-defaults 
 
-make	DESTDIR=$RPM_BUILD_ROOT \
+%{__make} DESTDIR=$RPM_BUILD_ROOT \
 	SYSPATHFILE=$RPM_BUILD_ROOT%{_libdir}/X11/app-defaults/Xloadimage \
 	install install.man
 
-gzip -9nf $RPM_BUILD_ROOT%{_mandir}/man1/xloadimage.1x \
-	README
+gzip -9nf README
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -66,4 +66,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/xsetbg
 
 %{_libdir}/X11/app-defaults/Xloadimage
-%{_mandir}/man1/xloadimage.1x.gz
+%{_mandir}/man1/xloadimage.1x*
