@@ -35,8 +35,9 @@ BuildRequires:	XFree86-devel
 BuildRequires:	libtiff-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
+%define		_prefix			/usr/X11R6
+%define		_mandir			%{_prefix}/man
+%define		_appdefsdir		/usr/X11R6/lib/X11/app-defaults
 %define		_noautocompressdoc	*rc
 
 %description
@@ -149,18 +150,24 @@ ln -sf makefile.ansi Makefile
 %build
 xmkmf
 
-(cd jpeg; %{__make} libjpeg.a CFLAGS="%{rpmcflags}")
+# it uses outdated, incompatible libjpeg 4a
+%{__make} -C jpeg libjpeg.a \
+	CC="%{__cc}" \
+	CFLAGS="%{rpmcflags}"
 
-%{__make} CXXDEBUGFLAGS="%{rpmcflags}" \
+%{__make} \
+	CC="%{__cc}" \
 	CDEBUGFLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_libdir}/X11/app-defaults
+install -d $RPM_BUILD_ROOT%{_appdefsdir}
 
-%{__make} DESTDIR=$RPM_BUILD_ROOT \
-	SYSPATHFILE=$RPM_BUILD_ROOT%{_libdir}/X11/app-defaults/Xloadimage \
-	install install.man
+%{__make} install install.man \
+	DESTDIR=$RPM_BUILD_ROOT \
+	BINDIR=%{_bindir} \
+	MANDIR=%{_mandir}/man1 \
+	SYSPATHFILE=$RPM_BUILD_ROOT%{_appdefsdir}/Xloadimage
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -172,5 +179,5 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/xview
 %attr(755,root,root) %{_bindir}/xsetbg
 
-%{_libdir}/X11/app-defaults/Xloadimage
+%{_appdefsdir}/Xloadimage
 %{_mandir}/man1/xloadimage.1x*
