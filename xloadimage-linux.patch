@@ -31,7 +31,7 @@
 -extern char    *BuildSystem;
 +char    *BuildDate = __DATE__;
 +char    *BuildUser = "PLD";
-+char    *BuildSystem = "pld.org.pl";
++char    *BuildSystem = "pld-linux.org";
  
  static char *signalName(sig)
       int sig;
