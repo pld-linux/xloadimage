@@ -45,8 +45,7 @@ make CXXDEBUGFLAGS="$RPM_OPT_FLAGS" \
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_libdir}/X11/app-defaults \
-	$RPM_BUILD_ROOT/usr/X11R6/share/applnk/Graphics
+install -d $RPM_BUILD_ROOT%{_libdir}/X11/app-defaults 
 
 make	DESTDIR=$RPM_BUILD_ROOT \
 	SYSPATHFILE=$RPM_BUILD_ROOT%{_libdir}/X11/app-defaults/Xloadimage \
