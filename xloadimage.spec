@@ -20,7 +20,7 @@ Summary(uk):	Програма перегляду зображень п╕д X Window System
 Summary(zh_CN):	р╩╦Ж╩Ысз X ╢╟©зо╣мЁ╣дм╪оЯ╡И©╢фВ║ё
 Name:		xloadimage
 Version:	4.1
-Release:	25
+Release:	26
 License:	MIT
 Group:		X11/Applications/Graphics
 Source0:	ftp://ftp.x.org/R5contrib/%{name}.%{version}.tar.gz
@@ -28,6 +28,7 @@ Patch0:		%{name}-linux.patch
 Patch1:		%{name}-nobr.patch
 Patch2:		%{name}-unaligned.patch
 Patch3:		%{name}-buffer.patch
+Patch4:		%{name}-errno.patch
 BuildRequires:	XFree86-devel
 BuildRequires:	libtiff-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -136,6 +137,7 @@ xloadimage й╣сцЁлпРсцсзтз X Window о╣мЁ╢╟©зжпотй╬м╪оС║╒
 %patch1 -p1
 %patch2 -p1
 %patch3 -p1
+%patch4 -p0
 
 cd jpeg
 mv -f Makefile Makefile.orig
