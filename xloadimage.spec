@@ -20,7 +20,7 @@ Summary(uk):	Програма перегляду зображень п╕д X Window System
 Summary(zh_CN):	р╩╦Ж╩Ысз X ╢╟©зо╣мЁ╣дм╪оЯ╡И©╢фВ║ё
 Name:		xloadimage
 Version:	4.1
-Release:	27
+Release:	28
 License:	MIT
 Group:		X11/Applications/Graphics
 Source0:	ftp://ftp.x.org/R5contrib/%{name}.%{version}.tar.gz
@@ -31,13 +31,13 @@ Patch2:		%{name}-unaligned.patch
 Patch3:		%{name}-buffer.patch
 Patch4:		%{name}-errno.patch
 Patch5:		%{name}-varargs2stdarg.patch
-BuildRequires:	XFree86-devel
 BuildRequires:	libtiff-devel
+BuildRequires:	xorg-cf-files
+BuildRequires:	xorg-lib-libXext-devel
+BuildRequires:	xorg-util-imake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix			/usr/X11R6
-%define		_mandir			%{_prefix}/man
-%define		_appdefsdir		/usr/X11R6/lib/X11/app-defaults
+%define		_appdefsdir		%{_datadir}/X11/app-defaults
 %define		_noautocompressdoc	*rc
 
 %description
@@ -157,7 +157,8 @@ xmkmf
 
 %{__make} \
 	CC="%{__cc}" \
-	CDEBUGFLAGS="%{rpmcflags}"
+	CDEBUGFLAGS="%{rpmcflags}" \
+	SYSPATHFILE="%{_appdefsdir}/Xloadimage"
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -175,9 +176,10 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README xloadimagerc
+%attr(755,root,root) %{_bindir}/uufilter
 %attr(755,root,root) %{_bindir}/xloadimage
 %attr(755,root,root) %{_bindir}/xview
 %attr(755,root,root) %{_bindir}/xsetbg
-
 %{_appdefsdir}/Xloadimage
+%{_mandir}/man1/uufilter.1x*
 %{_mandir}/man1/xloadimage.1x*
