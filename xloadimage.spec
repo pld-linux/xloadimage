@@ -1,23 +1,23 @@
 Summary:	An X Window System based image viewer
-Summary(cs.UTF-8):   Prohlížeč obrázků na pro X Window System
-Summary(da.UTF-8):   Billledvisningsprogram for X vinduesystemet
-Summary(de.UTF-8):   Ein Bild-Anzeiger für das X Window System
-Summary(es.UTF-8):   Visor de imágenes para X Window
-Summary(fr.UTF-8):   Programme d'affichage d'images basé sur le système X Window
-Summary(id.UTF-8):   Utility X Window System untuk melihat gambar
-Summary(is.UTF-8):   Myndbirtir fyrir X gluggakerfið
-Summary(it.UTF-8):   Visualizzatore di immagini per X Window
-Summary(ja.UTF-8):   X Window System ベースの画像ビューア
-Summary(ko.UTF-8):   X 윈도우 시스템 기반 이미지 보기 프로그램
-Summary(nb.UTF-8):   Bildevisningsprogram for X vindusystemet
-Summary(pl.UTF-8):   Przeglądarka obrazków dla X Window
-Summary(pt.UTF-8):   Um visualizador de imagens baseado em X Window System
-Summary(ru.UTF-8):   Программа просмотра изображений в X Window System
-Summary(sk.UTF-8):   Prehliadač obrázkov pre systém X Window
-Summary(sl.UTF-8):   Pregledovalnik slik za Okna X
-Summary(sv.UTF-8):   En bildvisare för X11
-Summary(uk.UTF-8):   Програма перегляду зображень під X Window System
-Summary(zh_CN.UTF-8):   一个基于 X 窗口系统的图像查看器。
+Summary(cs.UTF-8):	Prohlížeč obrázků na pro X Window System
+Summary(da.UTF-8):	Billledvisningsprogram for X vinduesystemet
+Summary(de.UTF-8):	Ein Bild-Anzeiger für das X Window System
+Summary(es.UTF-8):	Visor de imágenes para X Window
+Summary(fr.UTF-8):	Programme d'affichage d'images basé sur le système X Window
+Summary(id.UTF-8):	Utility X Window System untuk melihat gambar
+Summary(is.UTF-8):	Myndbirtir fyrir X gluggakerfið
+Summary(it.UTF-8):	Visualizzatore di immagini per X Window
+Summary(ja.UTF-8):	X Window System ベースの画像ビューア
+Summary(ko.UTF-8):	X 윈도우 시스템 기반 이미지 보기 프로그램
+Summary(nb.UTF-8):	Bildevisningsprogram for X vindusystemet
+Summary(pl.UTF-8):	Przeglądarka obrazków dla X Window
+Summary(pt.UTF-8):	Um visualizador de imagens baseado em X Window System
+Summary(ru.UTF-8):	Программа просмотра изображений в X Window System
+Summary(sk.UTF-8):	Prehliadač obrázkov pre systém X Window
+Summary(sl.UTF-8):	Pregledovalnik slik za Okna X
+Summary(sv.UTF-8):	En bildvisare för X11
+Summary(uk.UTF-8):	Програма перегляду зображень під X Window System
+Summary(zh_CN.UTF-8):	一个基于 X 窗口系统的图像查看器。
 Name:		xloadimage
 Version:	4.1
 Release:	28
