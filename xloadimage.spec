@@ -1,23 +1,23 @@
 Summary:	An X Window System based image viewer
-Summary(cs):	Prohlí¾eè obrázkù na pro X Window System
-Summary(da):	Billledvisningsprogram for X vinduesystemet
-Summary(de):	Ein Bild-Anzeiger für das X Window System
-Summary(es):	Visor de imágenes para X Window
-Summary(fr):	Programme d'affichage d'images basé sur le système X Window
-Summary(id):	Utility X Window System untuk melihat gambar
-Summary(is):	Myndbirtir fyrir X gluggakerfiğ
-Summary(it):	Visualizzatore di immagini per X Window
-Summary(ja):	X Window System ¥Ù¡¼¥¹¤Î²èÁü¥Ó¥å¡¼¥¢
-Summary(ko):	X À©µµ¿ì ½Ã½ºÅÛ ±â¹İ ÀÌ¹ÌÁö º¸±â ÇÁ·Î±×·¥
-Summary(nb):	Bildevisningsprogram for X vindusystemet
-Summary(pl):	Przegl±darka obrazków dla X Window
-Summary(pt):	Um visualizador de imagens baseado em X Window System
-Summary(ru):	ğÒÏÇÒÁÍÍÁ ĞÒÏÓÍÏÔÒÁ ÉÚÏÂÒÁÖÅÎÉÊ × X Window System
-Summary(sk):	Prehliadaè obrázkov pre systém X Window
-Summary(sl):	Pregledovalnik slik za Okna X
-Summary(sv):	En bildvisare för X11
-Summary(uk):	ğÒÏÇÒÁÍÁ ĞÅÒÅÇÌÑÄÕ ÚÏÂÒÁÖÅÎØ Ğ¦Ä X Window System
-Summary(zh_CN):	Ò»¸ö»ùÓÚ X ´°¿ÚÏµÍ³µÄÍ¼Ïñ²é¿´Æ÷¡£
+Summary(cs.UTF-8):   ProhlÃ­Å¾eÄ obrÃ¡zkÅ¯ na pro X Window System
+Summary(da.UTF-8):   Billledvisningsprogram for X vinduesystemet
+Summary(de.UTF-8):   Ein Bild-Anzeiger fÃ¼r das X Window System
+Summary(es.UTF-8):   Visor de imÃ¡genes para X Window
+Summary(fr.UTF-8):   Programme d'affichage d'images basÃ© sur le systÃ¨me X Window
+Summary(id.UTF-8):   Utility X Window System untuk melihat gambar
+Summary(is.UTF-8):   Myndbirtir fyrir X gluggakerfiÃ°
+Summary(it.UTF-8):   Visualizzatore di immagini per X Window
+Summary(ja.UTF-8):   X Window System ãƒ™ãƒ¼ã‚¹ã®ç”»åƒãƒ“ãƒ¥ãƒ¼ã‚¢
+Summary(ko.UTF-8):   X ìœˆë„ìš° ì‹œìŠ¤í…œ ê¸°ë°˜ ì´ë¯¸ì§€ ë³´ê¸° í”„ë¡œê·¸ë¨
+Summary(nb.UTF-8):   Bildevisningsprogram for X vindusystemet
+Summary(pl.UTF-8):   PrzeglÄ…darka obrazkÃ³w dla X Window
+Summary(pt.UTF-8):   Um visualizador de imagens baseado em X Window System
+Summary(ru.UTF-8):   ĞŸÑ€Ğ¾Ğ³Ñ€Ğ°Ğ¼Ğ¼Ğ° Ğ¿Ñ€Ğ¾ÑĞ¼Ğ¾Ñ‚Ñ€Ğ° Ğ¸Ğ·Ğ¾Ğ±Ñ€Ğ°Ğ¶ĞµĞ½Ğ¸Ğ¹ Ğ² X Window System
+Summary(sk.UTF-8):   PrehliadaÄ obrÃ¡zkov pre systÃ©m X Window
+Summary(sl.UTF-8):   Pregledovalnik slik za Okna X
+Summary(sv.UTF-8):   En bildvisare fÃ¶r X11
+Summary(uk.UTF-8):   ĞŸÑ€Ğ¾Ğ³Ñ€Ğ°Ğ¼Ğ° Ğ¿ĞµÑ€ĞµĞ³Ğ»ÑĞ´Ñƒ Ğ·Ğ¾Ğ±Ñ€Ğ°Ğ¶ĞµĞ½ÑŒ Ğ¿Ñ–Ğ´ X Window System
+Summary(zh_CN.UTF-8):   ä¸€ä¸ªåŸºäº X çª—å£ç³»ç»Ÿçš„å›¾åƒæŸ¥çœ‹å™¨ã€‚
 Name:		xloadimage
 Version:	4.1
 Release:	28
@@ -46,93 +46,93 @@ loads images into the root window, or writes images into a file.
 Xloadimage supports many images types (GIF, TIFF, JPEG, XPM, XBM,
 etc.).
 
-%description -l cs
-Xloadimage zobrazuje obrázky v X Window Systemu, umis»uje obrázky do
-koøenového okna nebo ukládá obrázky do souboru. Podporuje mno¾ství
-formátù (GIF, TIFF, JPEG, XPM, XBM, atd.).
+%description -l cs.UTF-8
+Xloadimage zobrazuje obrÃ¡zky v X Window Systemu, umisÅ¥uje obrÃ¡zky do
+koÅ™enovÃ©ho okna nebo uklÃ¡dÃ¡ obrÃ¡zky do souboru. Podporuje mnoÅ¾stvÃ­
+formÃ¡tÅ¯ (GIF, TIFF, JPEG, XPM, XBM, atd.).
 
-%description -l da
-Xloadimage er et værktøj som viser billeder i et X-vindue, indlæser
-billeder i rodvinduet, eller skriver billeder på en fil.  Xloadimage
+%description -l da.UTF-8
+Xloadimage er et vÃ¦rktÃ¸j som viser billeder i et X-vindue, indlÃ¦ser
+billeder i rodvinduet, eller skriver billeder pÃ¥ en fil.  Xloadimage
 behandler mange billedtyper (GIF, TIFF, JPEG, XPM, XBM, etc.).
 
-%description -l de
+%description -l de.UTF-8
 Das Dienstprogramm xloadimage zeigt Bilder in einem X Window
-System-Fenster an, lädt Bilder in das Root-Fenster oder schreibt
-Bilder in eine Datei. Xloadimage unterstützt viele Bildformate (GIF,
+System-Fenster an, lÃ¤dt Bilder in das Root-Fenster oder schreibt
+Bilder in eine Datei. Xloadimage unterstÃ¼tzt viele Bildformate (GIF,
 TIFF, JPEG, XPM, XBM usw.).
 
-%description -l es
-La utilidad xloadimage muestra imágenes en una ventana de X Window,
-carga imágenes en la ventana de fondo o las escribe en un fichero.
-Xloadimage soporta múltiples formatos de imagen(GIF, TIFF, JPEG. XPM,
+%description -l es.UTF-8
+La utilidad xloadimage muestra imÃ¡genes en una ventana de X Window,
+carga imÃ¡genes en la ventana de fondo o las escribe en un fichero.
+Xloadimage soporta mÃºltiples formatos de imagen(GIF, TIFF, JPEG. XPM,
 XBM, etc.).
 
-%description -l fr
-L'utilitaire xloadimage affiche des images dans une fenêtre du système X
-Window, charge des images dans la fenêtre root ou écrit des images dans
+%description -l fr.UTF-8
+L'utilitaire xloadimage affiche des images dans une fenÃªtre du systÃ¨me X
+Window, charge des images dans la fenÃªtre root ou Ã©crit des images dans
 un fichier. Xloadimage prend en charge de nombreux types d'image (GIF,
 TIFF, JPEG, XPM et XBM).
 
-%description -l id
+%description -l id.UTF-8
 Utility xloadimage menampilkan gambar di sebuah window pada X Window
 System, di root window, atau menyimpan gambar ke dalam file. Xloadimage
 menukung banyak type gambar (GIF, TIFF, JPEG, XPM, XBM, dll.).
 
-%description -l is
-Xloadimage forritiğ birtir myndir í glugga X gluggakerfis, hleğur
-myndir í rótargluggann, eğa skrifar myndir í skrá. Xloadimage styğur
+%description -l is.UTF-8
+Xloadimage forritiÃ° birtir myndir Ã­ glugga X gluggakerfis, hleÃ°ur
+myndir Ã­ rÃ³targluggann, eÃ°a skrifar myndir Ã­ skrÃ¡. Xloadimage styÃ°ur
 margar tegundir mynda (GIF, TIFF, JPEG, XPM, XBM, o.fl.).
 
-%description -l it
+%description -l it.UTF-8
 Il programma xloadimage visualizza un'immagine in una finestra del
 sistema X Window, carica le immagini nella finestra di root o salva
 le immagini in un file. Xloadimage supporta molti formati di immagini
 (tra cui GIF, TIFF, JPEG. XPM, XBM, ecc.).
 
-%description -l ja
-xloadimage ¥æ¡¼¥Æ¥£¥ê¥Æ¥£¤Ï X Window System ¥¦¥£¥ó¥É¥¦¤Ë²èÁü¤òÉ½¼¨¤·¡¢
-¥ë¡¼¥È¥¦¥£¥ó¥É¥¦¤Ø¤Î²èÁü¤Î¥í¡¼¥É¡¢¤Ş¤¿¤Ï¥Õ¥¡¥¤¥ë¤Ø¤Î²èÁü½ñ¤­¹ş¤ß¤ò¹Ô¤¤
-¤Ş¤¹¡£xloadimage ¤Ç¤ÏÂ¿¤¯¤Î²èÁü¥¿¥¤¥× (GIF¡¢TIFF¡¢JPEG¡¢XPM¡¢XBM) ¤ò
-¥µ¥İ¡¼¥È¤·¤Æ¤¤¤Ş¤¹¡£
+%description -l ja.UTF-8
+xloadimage ãƒ¦ãƒ¼ãƒ†ã‚£ãƒªãƒ†ã‚£ã¯ X Window System ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ã«ç”»åƒã‚’è¡¨ç¤ºã—ã€
+ãƒ«ãƒ¼ãƒˆã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ã¸ã®ç”»åƒã®ãƒ­ãƒ¼ãƒ‰ã€ã¾ãŸã¯ãƒ•ã‚¡ã‚¤ãƒ«ã¸ã®ç”»åƒæ›¸ãè¾¼ã¿ã‚’è¡Œã„
+ã¾ã™ã€‚xloadimage ã§ã¯å¤šãã®ç”»åƒã‚¿ã‚¤ãƒ— (GIFã€TIFFã€JPEGã€XPMã€XBM) ã‚’
+ã‚µãƒãƒ¼ãƒˆã—ã¦ã„ã¾ã™ã€‚
 
-%description -l pl
-Xloadimage wy¶wietla obrazki w zwyk³ym i g³ównym oknie X Window lub
-zapisuje je do pliku. Rozpoznaje wiele formatów plików graficznych,
+%description -l pl.UTF-8
+Xloadimage wyÅ›wietla obrazki w zwykÅ‚ym i gÅ‚Ã³wnym oknie X Window lub
+zapisuje je do pliku. Rozpoznaje wiele formatÃ³w plikÃ³w graficznych,
 m.in. GIF, TIFF, XPM, XBM, etc.
 
-%description -l pt
-O utilitário xloadimage mostra imagens numa janela do X Window System,
-lê imagens para a janela de raiz, ou escreve imagens para um ficheiro.
+%description -l pt.UTF-8
+O utilitÃ¡rio xloadimage mostra imagens numa janela do X Window System,
+lÃª imagens para a janela de raiz, ou escreve imagens para um ficheiro.
 O xloadimage suporta muitos tipos de imagem (GIF, TIFF, JPEG, XPM e
 XBM).
 
-%description -l ru
-õÔÉÌÉÔÁ xloadimage ÄÅÍÏÎÓÔÒÉÒÕÅÔ ÉÚÏÂÒÁÖÅÎÉÑ × ÏËÎÅ X Window System,
-×Ù×ÏÄÉÔ ÉÚÏÂÒÁÖÅÎÉÑ ÎÁ ÆÏÎ ÜËÒÁÎÁ ÉÌÉ ÚÁĞÉÓÙ×ÁÅÔ ÉÚÏÂÒÁÖÅÎÉÑ × ÆÁÊÌ.
-Xloadimage ĞÏÄÄÅÒÖÉ×ÁÅÔ ÍÎÏÇÉÅ ÇÒÁÆÉŞÅÓËÉÅ ÆÏÒÍÁÔÙ (GIF, TIFF, JPEG,
-XPM, XBM É Ô.Ä.).
+%description -l ru.UTF-8
+Ğ£Ñ‚Ğ¸Ğ»Ğ¸Ñ‚Ğ° xloadimage Ğ´ĞµĞ¼Ğ¾Ğ½ÑÑ‚Ñ€Ğ¸Ñ€ÑƒĞµÑ‚ Ğ¸Ğ·Ğ¾Ğ±Ñ€Ğ°Ğ¶ĞµĞ½Ğ¸Ñ Ğ² Ğ¾ĞºĞ½Ğµ X Window System,
+Ğ²Ñ‹Ğ²Ğ¾Ğ´Ğ¸Ñ‚ Ğ¸Ğ·Ğ¾Ğ±Ñ€Ğ°Ğ¶ĞµĞ½Ğ¸Ñ Ğ½Ğ° Ñ„Ğ¾Ğ½ ÑĞºÑ€Ğ°Ğ½Ğ° Ğ¸Ğ»Ğ¸ Ğ·Ğ°Ğ¿Ğ¸ÑÑ‹Ğ²Ğ°ĞµÑ‚ Ğ¸Ğ·Ğ¾Ğ±Ñ€Ğ°Ğ¶ĞµĞ½Ğ¸Ñ Ğ² Ñ„Ğ°Ğ¹Ğ».
+Xloadimage Ğ¿Ğ¾Ğ´Ğ´ĞµÑ€Ğ¶Ğ¸Ğ²Ğ°ĞµÑ‚ Ğ¼Ğ½Ğ¾Ğ³Ğ¸Ğµ Ğ³Ñ€Ğ°Ñ„Ğ¸Ñ‡ĞµÑĞºĞ¸Ğµ Ñ„Ğ¾Ñ€Ğ¼Ğ°Ñ‚Ñ‹ (GIF, TIFF, JPEG,
+XPM, XBM Ğ¸ Ñ‚.Ğ´.).
 
-%description -l sk
-Nástroj xloadimage zobrazuje obrázky v systéme X Window, nahráva
-obrázky do hlavného okna, alebo ich zapisuje do súboru. Xloadimage
-podporuje mnoho typov obrázkov (GIF, TIFF, JPEG, XPM, XBM, atï.).
+%description -l sk.UTF-8
+NÃ¡stroj xloadimage zobrazuje obrÃ¡zky v systÃ©me X Window, nahrÃ¡va
+obrÃ¡zky do hlavnÃ©ho okna, alebo ich zapisuje do sÃºboru. Xloadimage
+podporuje mnoho typov obrÃ¡zkov (GIF, TIFF, JPEG, XPM, XBM, atÄ.).
 
-%description -l sv
-Xloadimage är ett verktyg som visar bilder i ett X-fönster, laddar
-bilder i rotfönstret, eller skriver bilder på en fil.  Xloadimage
-hantera många bildtyper (GIF, TIFF, JPEG, XPM, XBM, etc.).
+%description -l sv.UTF-8
+Xloadimage Ã¤r ett verktyg som visar bilder i ett X-fÃ¶nster, laddar
+bilder i rotfÃ¶nstret, eller skriver bilder pÃ¥ en fil.  Xloadimage
+hantera mÃ¥nga bildtyper (GIF, TIFF, JPEG, XPM, XBM, etc.).
 
-%description -l uk
-õÔÉÌ¦ÔÁ xloadimage ĞÏËÁÚÕ¤ ÚÏÂÒÁÖÅÎÎÑ Õ ×¦ËÎ¦ X Window System, ÚÁ×ÁÎÔÁÖÕ¤
-§È × ËÏÒÅÎÅ×Å ×¦ËÎÏ, ÁÂÏ ÚÁĞÉÓÕ¤ × ÆÁÊÌ. Xloadimage Ğ¦ÄÔÒÉÍÕ¤ ÂÁÇÁÔÏ
-ÆÏÒÍÁÔ¦× ÇÒÁÆ¦ŞÎÉÈ ÆÁÊÌ¦× (GIF, TIFF, JPEG, XPM, XBM ÔÁ ¦ÎÛ¦).
+%description -l uk.UTF-8
+Ğ£Ñ‚Ğ¸Ğ»Ñ–Ñ‚Ğ° xloadimage Ğ¿Ğ¾ĞºĞ°Ğ·ÑƒÑ” Ğ·Ğ¾Ğ±Ñ€Ğ°Ğ¶ĞµĞ½Ğ½Ñ Ñƒ Ğ²Ñ–ĞºĞ½Ñ– X Window System, Ğ·Ğ°Ğ²Ğ°Ğ½Ñ‚Ğ°Ğ¶ÑƒÑ”
+Ñ—Ñ… Ğ² ĞºĞ¾Ñ€ĞµĞ½ĞµĞ²Ğµ Ğ²Ñ–ĞºĞ½Ğ¾, Ğ°Ğ±Ğ¾ Ğ·Ğ°Ğ¿Ğ¸ÑÑƒÑ” Ğ² Ñ„Ğ°Ğ¹Ğ». Xloadimage Ğ¿Ñ–Ğ´Ñ‚Ñ€Ğ¸Ğ¼ÑƒÑ” Ğ±Ğ°Ğ³Ğ°Ñ‚Ğ¾
+Ñ„Ğ¾Ñ€Ğ¼Ğ°Ñ‚Ñ–Ğ² Ğ³Ñ€Ğ°Ñ„Ñ–Ñ‡Ğ½Ğ¸Ñ… Ñ„Ğ°Ğ¹Ğ»Ñ–Ğ² (GIF, TIFF, JPEG, XPM, XBM Ñ‚Ğ° Ñ–Ğ½ÑˆÑ–).
 
 
-%description -l zh_CN
-xloadimage ÊµÓÃ³ÌĞòÓÃÓÚÔÚ X Window ÏµÍ³´°¿ÚÖĞÏÔÊ¾Í¼Ïó¡¢
-ÔÚ¸ù´°¿ÚÖĞ×°ÔØÍ¼Ïó»òÔÚÎÄ¼şÖĞĞ´ÈëÍ¼Ïó¡£Xloadimage Ö§³Ö¶àÖÖÍ¼Ïó
-ÀàĞÍ£¨GIF¡¢TIFF¡¢JPEG¡¢XPM ºÍ XBM µÈµÈ£©¡£
+%description -l zh_CN.UTF-8
+xloadimage å®ç”¨ç¨‹åºç”¨äºåœ¨ X Window ç³»ç»Ÿçª—å£ä¸­æ˜¾ç¤ºå›¾è±¡ã€
+åœ¨æ ¹çª—å£ä¸­è£…è½½å›¾è±¡æˆ–åœ¨æ–‡ä»¶ä¸­å†™å…¥å›¾è±¡ã€‚Xloadimage æ”¯æŒå¤šç§å›¾è±¡
+ç±»å‹ï¼ˆGIFã€TIFFã€JPEGã€XPM å’Œ XBM ç­‰ç­‰ï¼‰ã€‚
 
 %prep
 %setup -q -n %{name}.%{version}
